@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Random Password Generator</title>
+  <link rel = "stylesheet" href = "style.css">
+
+
+<body>
+
+  <form id="forms">
+
+  <h1>Random Password Generator</h1>
+
+  What's your password for?&nbsp; <input name="name" type="text" id = "password_for"><br><br>
+
+  How long would you like your password to be? &nbsp; <input type = "number" id = "passwordl"><br><br>
+
+  <label>Uppercase:</label> &nbsp; <input type = "checkbox" id = "upper"><br>
+  <label>Lowercase:</label> &nbsp; <input type = "checkbox" id = "lower"><br>
+  <label>Numbers:</label> &nbsp; <input type = "checkbox" id = "num"><br>
+  <label>Symbols:</label> &nbsp; <input type = "checkbox" id = "symbol"><br><br>
+
+  <button type = "button" id = "generate">Generate Password</button> &nbsp;
+  <button type = "button" id = "save">Save Password</button> &nbsp;
+  <button type = "button" id = "copy">Copy To Clipboard</button><br><br>
+
+  Here's your password:&nbsp; <input name = "name" type = "text" id = "password"><br><br>
+
+  </form>
+
+<script src = "FileSaver.js"></script>
+<script src = "popup.js"></script>
+</body>
+
+
+
+</html>
